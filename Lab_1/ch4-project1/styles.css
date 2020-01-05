@@ -1,0 +1,96 @@
+/* Add your CSS style definitions to this file */
+body{
+  margin-top: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 0em;
+  background-color: #f9f9f9;
+}
+
+article{
+  background-color: white;
+}
+
+img{
+  width: 100%;
+}
+
+h1, blockquote{
+  font-family: "Roboto Slab";
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #9f2042;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+blockquote{
+  font-size: 1.25rem;
+  background: #f9f9f9;
+  border: 1px solid #ececec;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+#details{
+  font: 1rem "Open Sans";
+  color: #a9a9ba;
+  text-align: center;
+  margin-top: 1px;
+}
+
+p{
+  font: 0.9rem "Open Sans";
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#buttons{
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  margin-left: 2em;
+}
+
+#buttons a{
+  font: 0.9rem "Open Sans";
+  border:1px solid #ececec;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+#buttons a:link, #buttons a:visited{
+  color: #ec8295;
+  text-decoration: none;
+}
+
+#buttons a:hover{
+  text-decoration: none;
+  background: #a9a9ba;
+  color:#9f2042;
+}
+
+footer{
+  background: #29293a;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+footer p{
+  margin-left: 2em;
+}
+
+footer p{
+  color: white;
+}
+
+footer p:last-child a:link, footer p:last-child a:visited{
+  text-decoration: none;
+  color: #9f2042;
+}
